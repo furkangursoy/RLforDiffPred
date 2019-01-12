@@ -1,4 +1,5 @@
-# RLforDiffPred
+# Predicting Diffusion Reach Probabilities via Representation Learning on Social Networks
+
 The code, replication steps, and a sample replication on the *Email-Eu-core* network is available for the paper titled "Predicting Diffusion Reach Probabilities via Representation Learning on Social Networks".
 
 *Feel free to email me with regard to the paper or the code.*
