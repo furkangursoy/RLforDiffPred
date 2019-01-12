@@ -30,6 +30,7 @@ Details can be seen in the following replication steps, or by studying the code.
 
 
 **Generate node embeddings.** 
+
 You can use any network representation learning (network embedding) method as you like. In the paper, we have used node2vec. Code and instructions for *node2vec* is available at https://github.com/aditya-grover/node2vec. 
 
 Do not give link weights as input to the method since we assume that the weights are unknown to us. You can remove the weight column from the graph file and then use it as an input for *node2vec*.
@@ -56,15 +57,18 @@ At the end of this step, you should obtain a file with an embedding for each nod
 
 
 **Observe the output file.**
+
 The first line is the score for the very naive benchmark which we have not reported in our paper.
 
 The second line is the score for the benchmark which we have reported in our paper.
 
 The third and fourth lines are the scores for GradientBoostingRegressor and MLPRegressor, respectively.
 
+Two additional files are generated which show predicted and actual probabilty values for comparison.
 
-**A few improvement opportunities.**
+
+**Further directions.**
+
 Use different machine learning models (e.g., ensemble learning methods) and tune their parameters. You can notice that in our experiments, we have not event tuned the parameters of the models we employed but rather used them in their default settings. If a better model with tuned parameters is utilized, the end results are likely to be better than what we presented in our paper.
 
 Use different network representation learning (network embedding) methods and tune their parameters. You can notice that in our experiments, we only used *node2vec* and only tried one parameter setting. If a better representation learning method is selected and/or its parameters are tuned, the end results are likely to be  better than what we presented in our paper.
-
