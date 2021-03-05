@@ -4,7 +4,7 @@ The code, replication steps, and a sample replication on the *Email-Eu-core* net
 ___
 _If you find this useful for your research, please consider citing:_
 
-Gürsoy, F., and A. O. Durahim. "Predicting Diffusion Reach Probabilities via Representation Learning on Social Networks." Fifth International Management Information Systems Conference. 2018.
+F. Gürsoy, A. O. Durahim. "Predicting Diffusion Reach Probabilities via Representation Learning on Social Networks." _Fifth International Management Information Systems Conference._ 2018.
 
 Full Text: https://arxiv.org/abs/1901.03629
 
