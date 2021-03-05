@@ -6,7 +6,7 @@ _If you find this useful for your research, please consider citing:_
 
 F. Gürsoy, A. O. Durahim. "Predicting Diffusion Reach Probabilities via Representation Learning on Social Networks." _Fifth International Management Information Systems Conference._ 2018.
 
-Full Text: https://arxiv.org/abs/1901.03629
+Full Text: https://arxiv.org/abs/1901.03829
 
     @inproceedings{gursoy2018predicting,
       title={Predicting Diffusion Reach Probabilities via Representation Learning on Social Networks},
