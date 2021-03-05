@@ -1,6 +1,21 @@
-# Predicting Diffusion Reach Probabilities via Representation Learning on Social Networks
+### Predicting Diffusion Reach Probabilities via Representation Learning on Social Networks
 
-The code, replication steps, and a sample replication on the *Email-Eu-core* network is available for the paper titled "Predicting Diffusion Reach Probabilities via Representation Learning on Social Networks".
+The code, replication steps, and a sample replication on the *Email-Eu-core* network is available for the following paper.
+___
+_If you find this useful for your research, please consider citing:_
+
+Gürsoy, F., and A. O. Durahim. "Predicting Diffusion Reach Probabilities via Representation Learning on Social Networks." Fifth International Management Information Systems Conference. 2018.
+
+Full Text: https://arxiv.org/abs/1901.03629
+
+    @inproceedings{gursoy2018predicting,
+      title={Predicting Diffusion Reach Probabilities via Representation Learning on Social Networks},
+      author={G{\"u}rsoy, F and Durahim, AO},
+      booktitle={Fifth International Management Information Systems Conference},
+      year={2018},
+      doi={10.6084/m9.figshare.7565894}
+    }
+___ 
 
 *Feel free to email me with regard to the paper or the code.*
 
@@ -73,3 +88,6 @@ Two additional files are generated which show predicted and actual probabilty va
 Use different machine learning models (e.g., ensemble learning methods) and tune their parameters. You can notice that in our experiments, we have not event tuned the parameters of the models we employed but rather used them in their default settings. If a better model with tuned parameters is utilized, the end results are likely to be better than what we presented in our paper.
 
 Use different network representation learning (network embedding) methods and tune their parameters. You can notice that in our experiments, we only used *node2vec* and only tried one parameter setting. If a better representation learning method is selected and/or its parameters are tuned, the end results are likely to be  better than what we presented in our paper.
+
+
+### Citing
